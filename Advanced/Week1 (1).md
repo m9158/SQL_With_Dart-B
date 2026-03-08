@@ -53,6 +53,10 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 데이터베이스와 DBMS에 관해 배우게 된 점을 적어주세요. -->
 
+~~~
+DDD
+~~~
+
 > **확인문제: 다음 소프트웨어 중에서 DBMS가 아닌 것을 모두 고르세요.**
 
 > MySQL / Excel / Oracle / SQL Server / MariaDB
