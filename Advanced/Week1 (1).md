@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 데이터베이스와 DBMS에 관해 배우게 된 점을 적어주세요. -->
 
 ~~~
-DDD
+데이터베이스를 '데이터의 집합'이라고 정의한다면, 이런 데이터베이스를 관리하고 운영하는 소프트웨어를 DBMS라고 한다.
 ~~~
 
 > **확인문제: 다음 소프트웨어 중에서 DBMS가 아닌 것을 모두 고르세요.**
@@ -62,7 +62,7 @@ DDD
 > MySQL / Excel / Oracle / SQL Server / MariaDB
 
 ```
-여기에 답을 적어주세요!
+Excel
 ```
 
 
@@ -70,7 +70,8 @@ DDD
 
 <!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1297" height="935" alt="image" src="https://github.com/user-attachments/assets/fe2b61a5-a72e-46c9-845a-ba794c22dbaf" />
+
 
 
 ## 3. 건물을 짓기 위한 설계도: 데이터베이스 모델링
@@ -82,7 +83,7 @@ DDD
 > 시스템 설계 / 테스트 / 프로그램 구현 / 프로젝트 계획 / 업무 분석 / 유지보수
 
 ```
-여기에 답을 적어주세요!
+프로젝트 모델 -> 업무 분석 -> 시스템 설계 -> 프로그램 구현 -> 테스트 -> 유지보수
 ```
 
 
@@ -90,16 +91,63 @@ DDD
 
 <!-- 이번 챕터는 개념정리 없이 실습 인증사진으로 대체합니다. 강의를 수강하고, 실습 과정이 보이도록 인증사진 3-4장을 아래에 제출해주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="408" height="884" alt="image" src="https://github.com/user-attachments/assets/c80c7a2a-b82b-466e-bd95-adafeea179f2" />
+~~~
+비어있는 쇼핑몰 데이터 베이스 만들기
+~~~
+
+<img width="1174" height="881" alt="image" src="https://github.com/user-attachments/assets/07bc18e1-0388-4b9d-ae96-c1e8867f9bcf" />
+~~~
+데이터 테이블 만들기
+~~~
+
+<img width="1181" height="889" alt="image" src="https://github.com/user-attachments/assets/cc8f4bc1-b909-4420-9f35-9860361f0e35" />
+~~~
+데이터 입력하기
+~~~
+
+
+
 
 
 ## 5. 데이터베이스 개체
 
-<!-- 데이터베이스 개체에 관해 배우게 된 점을 적어주세요. -->
+1. 인덱스
+   - 데이터를 조회할 때 결과가 나오는 속도를 획기적으로 빠르게 해준다.
+
+2. 뷰
+   - 테이블의 일부를 제한적으로 표현할 때 주로 사용한다.
+
+3. 스토어드 프로시저
+   - SQL에서 프로그래밍이 가능하도록 해준다.
+
+4. 트리거
+   - 잘못된 데이터가 들어가는 것을 미연에 방지하는 기능을 한다.
 
 <!-- 인덱스, 뷰, 스토어드 프로시저 실습을 각각 진행한 후, 각 실습에 대한 인증 사진을 1장씩 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1185" height="887" alt="image" src="https://github.com/user-attachments/assets/dac9e28b-ec7f-49b9-89b3-2ad577cf382a" />
+~~~
+인덱스 생성
+~~~
+
+
+<img width="1176" height="893" alt="image" src="https://github.com/user-attachments/assets/5573f331-1642-4e45-9fb3-38b14db83df7" />
+
+~~~
+뷰를 생성 후 확인
+~~~
+
+<img width="1182" height="892" alt="image" src="https://github.com/user-attachments/assets/a49e1ec6-cd31-4f1e-9dec-7d41d896ab80" />
+
+~~~
+스토어드 프로시저를 사용해 call문을 적용
+~~~
+
+
+
+
+
 
 ---
 
