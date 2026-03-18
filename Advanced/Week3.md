@@ -55,7 +55,7 @@ CONVERT() / DATA() / CAST() / MOVE() / TYPE() / SUM() / AVG() / CURRENT_DATE()
 ```
 
 ```
-여기에 답을 적어주세요!
+COVERT(), CAST()
 ```
 
 
