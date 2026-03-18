@@ -211,9 +211,10 @@ INSERT INTO orders VALUES
 
 
    
+<img width="944" height="532" alt="image" src="https://github.com/user-attachments/assets/f5a486d4-383b-409c-a726-b433de8694e3" />
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+
 
 
 ### 🎉 수고하셨습니다.
