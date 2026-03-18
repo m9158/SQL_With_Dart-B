@@ -81,7 +81,7 @@ SELECT DISTINCT M.mem_id, B.prod_name, M.mem_name, M.addr
 4. WHERE B.prod_name IS NULL
 ```
 ```
-여기에 답과 그 이유를 적어주세요!
+정답 : 4번. 이유: 외부 조인절인데, 한 번도 구매한 적이 없는 회원이라면 구매목록의 상품 이름의 값이 Null 일 것이기 때문에 WHERE절을 통해 prod_name이 Null인 조건을 걸어줘야한다.
 ```
 
 ## 3. SQL 프로그래밍 
