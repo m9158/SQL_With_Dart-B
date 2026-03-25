@@ -194,8 +194,39 @@ USE week4_db;
 1. 각 문제의 실행 결과가 보이도록 화면을 캡처합니다.
 2. 테이블 생성 결과, 데이터 삽입 결과, 뷰 생성 및 조회 결과가 모두 보이도록 제출합니다.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="933" height="343" alt="image" src="https://github.com/user-attachments/assets/60df6458-efb0-4bbb-af7b-e6c5fc482151" />
 
+~~~
+1번 문제
+~~~
+
+<img width="932" height="239" alt="image" src="https://github.com/user-attachments/assets/21c060d8-4ce1-4ae7-a4aa-a80b9e4392ce" />
+
+
+~~~
+2번 문제
+~~~
+
+
+<img width="896" height="256" alt="image" src="https://github.com/user-attachments/assets/145732f3-855a-45cb-b76a-1a84b3b46ac1" />
+
+
+~~~
+3번 문제
+~~~
+
+<img width="920" height="246" alt="image" src="https://github.com/user-attachments/assets/e2f82272-e370-44f1-857a-c6a27be9e551" />
+
+
+~~~
+4번 문제
+~~~
+
+<img width="1066" height="337" alt="image" src="https://github.com/user-attachments/assets/eaf1c276-19a4-4eec-b4cd-57a5deeb442d" />
+
+~~~
+5번 문제
+~~~
 ### 🎉 수고하셨습니다.
 
 
