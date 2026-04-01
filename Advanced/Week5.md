@@ -183,7 +183,28 @@ INSERT INTO employees VALUES
 
 인덱스 생성 결과, EXPLAIN 실행 결과, 인덱스 삭제 결과가 모두 보이도록 캡처하여 제출하세요.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="998" height="276" alt="image" src="https://github.com/user-attachments/assets/412975e5-b215-4d57-95b4-4eb066dff026" />
+~~~
+1번 문제
+~~~
+
+<img width="969" height="261" alt="image" src="https://github.com/user-attachments/assets/c99e7332-7bdc-4f9a-a3cf-77b80bd3a854" />
+
+~~~
+2번문제
+~~~
+
+<img width="978" height="231" alt="image" src="https://github.com/user-attachments/assets/ccd26e86-91ba-4ef5-baea-43557922c934" />
+
+~~~
+3번문제
+~~~
+
+<img width="930" height="331" alt="image" src="https://github.com/user-attachments/assets/1e170e12-d082-4672-85ea-507367ab0d8a" />
+
+~~~
+4번문제
+~~~
 
 ### 🎉 수고하셨습니다.
 
