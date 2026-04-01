@@ -184,6 +184,7 @@ INSERT INTO employees VALUES
 인덱스 생성 결과, EXPLAIN 실행 결과, 인덱스 삭제 결과가 모두 보이도록 캡처하여 제출하세요.
 
 <img width="998" height="276" alt="image" src="https://github.com/user-attachments/assets/412975e5-b215-4d57-95b4-4eb066dff026" />
+
 ~~~
 1번 문제
 ~~~
