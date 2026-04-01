@@ -45,11 +45,18 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. 인덱스 개념을 파악하자 
 
-1. 인덱스의 개념
+1. 인덱스의 장단점
+   - 적절한 인덱스를 생성하고 사용하는 SQL은 기존보다 아주 빠른 응답속도를 얻을 수 있다.
+   - SELECT 문으로 검색하는 속도가 매우 빨라진다.
+   - 인덱스도 공간을 차지해서 데이터베이스 안에 추가적인 공간이 필요하다.
+   - 인덱스를 만드는데 시간이 걸린다.
 
-1-1. 인덱스의 장단점
-    - 적절한 인덱스를 생성하고 사용하는 SQL은 기존보다 아주 빠른 응답속도를 얻을 수 있다.
-    - SELECT 문으로 검색하는 속도가 매우 빨라진다.
+2. 인덱스의 종류
+   - 클러스터형 인덱스: 영어사전처럼 책의 내용이 이미 알파벳 순서대로 정렬되어 있는 것. 별도의 찾아보기가 없음.
+   - 기본 키로 지정하면 자동으로 생성됨
+   - 보조형 인덱스: 찾아보기가 별도로 있고, 찾아보기에서 해당 단어를 찾은 후 옆에 표시된 페이지를 펼쳐야 실제 찾는 내용이 있는 것을 말한다.
+   - 고유 키로 지정하면 보조 인덱스가 생성됨
+    
     
 
 > **확인문제: 다음은 인덱스 종류와 관련된 설명입니다. 가장 거리가 먼 것을 하나 고르세요.**
@@ -63,13 +70,39 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ```
 
 ```
-여기에 답과 그 이유를 적어주세요!
+4번. 보조 인덱스는 고유 키를 설정하면 자동 생성된다. (UNIQUE)
 ```
 
 
 ## 2. 인덱스의 내부 작동 
 
-<!-- 인덱스의 내부 작동에 관해 배우게 된 점을 적어주세요. -->
+1. 인덱스의 내부 작동 원리
+   - 노드: 균형 트리구조에서 데이터가 저장되는 공간
+   - 루트 노드: 노드의 가장 상위 노드
+   - 리프 노드: 제일 마지막에 존재하는 노드
+   - MYSQL에서는 페이지라고 부른다.
+   - 균형 트리 구성 여부에 따라 읽어야하는 페이지 수의 차이가 상당히 큼
+  
+<img width="543" height="232" alt="image" src="https://github.com/user-attachments/assets/9b4c9521-2fbc-42b8-a9a3-0edc1092991f" />
+
+
+ 2. 인덱스의 구조
+
+<img width="580" height="361" alt="image" src="https://github.com/user-attachments/assets/d12b0de8-9530-4753-83e2-f87abda553d0" />
+
+<img width="553" height="546" alt="image" src="https://github.com/user-attachments/assets/1010ec7d-c327-4b5e-bb01-0973393c7e09" />
+
+
+3. 인덱스에서 데이터 검색하기
+
+<img width="575" height="380" alt="image" src="https://github.com/user-attachments/assets/f067b538-b745-48e1-88f2-a5383711f90f" />
+
+<img width="484" height="578" alt="image" src="https://github.com/user-attachments/assets/5642cec7-62bf-4587-aa6a-50badbf962be" />
+
+~~~
+클러스터형 인덱스는 2페이지만 읽어서 원하는 결과를 검색했고, 보조인덱스는 3페이지를 읽어서 원하는 결과를 검색. 클러스터형이 조금 더 빠름
+~~~
+
 
 > **확인문제: 다음 설명에서 빈칸에 공통으로 들어갈 용어를 쓰시오.**
 
