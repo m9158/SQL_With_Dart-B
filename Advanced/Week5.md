@@ -113,7 +113,7 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ```
 
 ```
-여기에 답을 적어주세요!
+페이지 분할
 ```
 
 
@@ -121,8 +121,16 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="939" height="167" alt="image" src="https://github.com/user-attachments/assets/23b00bdd-4148-4a2b-8915-5a8a16cbc925" />
 
+
+<img width="909" height="318" alt="image" src="https://github.com/user-attachments/assets/1727eda1-0ead-4ff4-bd02-db778a155007" />
+
+<img width="943" height="324" alt="image" src="https://github.com/user-attachments/assets/c2b3d6b2-d292-4cc6-a7b6-f11b3bf8aeb1" />
+
+<img width="979" height="299" alt="image" src="https://github.com/user-attachments/assets/135fca4b-bcad-4872-9276-b9775f4f6982" />
+
+<img width="958" height="827" alt="image" src="https://github.com/user-attachments/assets/496d412d-56e5-45c1-95f4-445dd485635d" />
 
 ---
 
