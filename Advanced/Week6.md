@@ -45,29 +45,77 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. 스토어드 프로시저 사용 방법 
 
-<!-- 스토어드 프로시저에 관해 배우게 된 점을 적어주세요. -->
+1. 스토어드 프로시저 기본
+   - 스토어드 프로시저: MySQL에서 제공하는 프로그래밍 기능.
+   - 쿼리 문의 집합으로도 볼 수 있으며, 어떠한 동작을 일괄 처리하기 위한 용도로 사용
+   - 자주 사용하는 일반적인 쿼리를 반복하는 것보다는 스ㅗ어디 프로시저로 묶어 놓고, 필요할 때마다 간단히 호출만 하면 훨씬 편리하게 MySQL을 운영할 수 있다.
+
+2. 스토어드 프로시저의 생성 및 삭제
+   - 삭제를 할 때는 user_proc뒤에 () 괄호를 작성하지 않는다.
+
+3. 스토어드 프로시저 실습
+   - 스토어드 프로시저에서 실행시 입력 매개변수를 지정할 수 있다.
+   - IN 입력_매개변수_이름 데이터_형식
+   - 스토어드 프로시저에서 처리된 결과를 출력 매개변수를 통해 얻을 수 있다.
+   - OUT 출력_매개변수_이름 데이터_형식
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1455" height="679" alt="image" src="https://github.com/user-attachments/assets/68e5dbc8-df90-4a0e-8900-71d1c49ab362" />
+
+<img width="1132" height="386" alt="image" src="https://github.com/user-attachments/assets/0957d1de-396b-4f2c-9402-c036efb48f11" />
+
+<img width="1255" height="354" alt="image" src="https://github.com/user-attachments/assets/c0a96cd3-2990-41b7-a099-d4fe98b75f0e" />
+
+<img width="1482" height="624" alt="image" src="https://github.com/user-attachments/assets/0a808fd9-0f55-4140-8193-39e4a9f690ef" />
 
 
 ## 2. 스토어드 함수와 커서 
 
-<!-- 스토어드 함수와 커서에 관해 배우게 된 점을 적어주세요. -->
+1. 스토어드 함수
+   - MySQL이 사용자가 원하는 모든 함수를 제공하지 않으므로 필요하다면 사용자가 직접 만들어 사용하는 것
+   - RETURNS 문으로 반활할 값의 데이터 형식을 지정하고, 본문 안에서는 RETURN 문으로 하나의 값을 반환해야한다
+   - 스토어드 함수의 매개변수는 모두 입력변수이다. IN을 붙이지 않는다.
+
+2. 커서로 한 행씩 처리하기
+   - 커서는 테이블에서 한 행씩 처리하기 위한 방식이다.
+   - 첫번 째 행을 처리한 후 마지막 행까지 한 행씩 접근해서 값을 처리한다.
+
+<img width="576" height="308" alt="image" src="https://github.com/user-attachments/assets/ca9aea84-11cd-45bc-a42f-014b2093d7d8" />
+
+<img width="392" height="410" alt="image" src="https://github.com/user-attachments/assets/0966da68-5b67-4447-a515-002df6d695dc" />
+
+
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="971" height="475" alt="image" src="https://github.com/user-attachments/assets/a289f962-2c5c-4397-aa5d-2fb026c9c99c" />
+
+<img width="1206" height="550" alt="image" src="https://github.com/user-attachments/assets/fad914bb-d0b5-476f-b9ca-e06ff24af947" />
+
 
 
 ## 3. 자동 실행되는 트리거 
 
-<!-- 트리거에 관해 배우게 된 점을 적어주세요. -->
+1. 트리거의 개요
+   - 테이블에 INSERT나 UPDATE 또는 DELETE 작업이 발생하면 실행되는 코드
+
+2. 트리거의 기본 작동
+   - 트리거는 테이블에서 DML 문의 이벤트가 발생할 때 작동한다.
+   - 스토어드 프로시저와 문법이 비슷하지만, call 문으로 직접 실행 시킬 수는 없고 DML 등의 이벤트가 발생할 경우에만 자동으로 실행된다.
+   - IN, OUT을 사용할 수 없다.
+
+3. 트리거의 활용
+   - 데이터 입력/수정/삭제가 발생할 때, 트리거를 자동으로 작동시켜 데이터를 변경한 사용자와 시간등을 기록할 수 있다.
+     
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1204" height="560" alt="image" src="https://github.com/user-attachments/assets/3c02c63e-7d32-438d-be3b-c0c1447b673e" />
+
+<img width="1176" height="425" alt="image" src="https://github.com/user-attachments/assets/4bd368ea-7743-4401-8335-3a5f39625eeb" />
+
+<img width="1211" height="273" alt="image" src="https://github.com/user-attachments/assets/8c873719-8038-478e-a9b4-d3c06bc0ec2e" />
 
 
 ---
