@@ -177,6 +177,12 @@ INSERT INTO accounts VALUES
 
 <img width="1095" height="369" alt="image" src="https://github.com/user-attachments/assets/2e0619b1-7812-4d37-b110-9c84a8987d20" />
 
+
+~~~
+추가 수행
+~~~
+
+
 <img width="1135" height="529" alt="image" src="https://github.com/user-attachments/assets/8973c2ee-596b-4480-8690-09bda5a9e51e" />
 
 
@@ -196,6 +202,9 @@ INSERT INTO accounts VALUES
 
 <img width="1628" height="541" alt="image" src="https://github.com/user-attachments/assets/018b3c0c-c21f-4100-b4ee-958c67f61835" />
 
+~~~
+추가 수행
+~~~
 
 
 <img width="1557" height="536" alt="image" src="https://github.com/user-attachments/assets/07170702-d59b-43c1-bfed-ac7c0819b3c7" />
@@ -210,6 +219,23 @@ INSERT INTO accounts VALUES
 **추가 수행**
 - 프로시저를 CALL 하여 결과를 확인하시오.
 
+
+<img width="1633" height="543" alt="image" src="https://github.com/user-attachments/assets/509c97eb-da0c-4c2e-9961-75ee9f3b1ef2" />
+
+<img width="1625" height="510" alt="image" src="https://github.com/user-attachments/assets/eb0ff24b-23eb-4c67-bdd1-9cc909867db8" />
+
+~~~
+추가 수행
+~~~
+<img width="1559" height="219" alt="image" src="https://github.com/user-attachments/assets/e3a8f406-3e68-4230-81cb-79515182d575" />
+<img width="1565" height="170" alt="image" src="https://github.com/user-attachments/assets/92c39f10-7f3c-48bb-97dd-e44408535b8b" />
+<img width="1507" height="192" alt="image" src="https://github.com/user-attachments/assets/ed68774c-d926-481a-a946-7265247301d9" />
+<img width="1457" height="184" alt="image" src="https://github.com/user-attachments/assets/af646f6e-aff0-417a-97b4-c665af26de2d" />
+
+
+
+
+
 ---
 
 ### 4. 트리거(Trigger)
@@ -221,7 +247,15 @@ INSERT INTO accounts VALUES
 - accounts 잔액이 자동으로 증가하는지 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1635" height="479" alt="image" src="https://github.com/user-attachments/assets/52f7dae8-efb4-4633-bbc9-80222a552b70" />
+
+
+~~~
+추가 수행
+~~~
+
+<img width="1544" height="325" alt="image" src="https://github.com/user-attachments/assets/c48d76ba-fb04-4207-b04d-a5373098ea08" />
+
 
 
 ### 🎉 수고하셨습니다.
