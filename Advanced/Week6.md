@@ -175,6 +175,12 @@ INSERT INTO accounts VALUES
 - 프로시저를 1회 이상 CALL 하시오.
 - 실행 후 `accounts` 테이블을 조회하여 잔액이 변경되었는지 확인하시오.
 
+<img width="1095" height="369" alt="image" src="https://github.com/user-attachments/assets/2e0619b1-7812-4d37-b110-9c84a8987d20" />
+
+<img width="1135" height="529" alt="image" src="https://github.com/user-attachments/assets/8973c2ee-596b-4480-8690-09bda5a9e51e" />
+
+
+
 ---
 
 ### 2. 스토어드 함수
@@ -187,6 +193,13 @@ INSERT INTO accounts VALUES
 
 **추가 수행**
 - `accounts` 테이블을 조회하면서 `fn_is_vip(balance)` 결과를 함께 출력하시오.
+
+<img width="1628" height="541" alt="image" src="https://github.com/user-attachments/assets/018b3c0c-c21f-4100-b4ee-958c67f61835" />
+
+
+
+<img width="1557" height="536" alt="image" src="https://github.com/user-attachments/assets/07170702-d59b-43c1-bfed-ac7c0819b3c7" />
+
 
 ---
 
